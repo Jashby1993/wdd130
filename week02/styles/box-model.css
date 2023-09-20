@@ -1,0 +1,33 @@
+.callout {
+    background-color: #b177b8;
+    max-width: 1500px;
+    box-sizing:border-box;
+    padding:1em;
+    border: 2px groove #5534d9;
+    margin:2em;
+    color:antiquewhite;
+	
+}
+
+.callout img {
+	float:right;
+    box-sizing: border-box;
+    padding:2px;
+    background-color: aliceblue;
+    width:15%;
+    height:auto;
+    border: 2px double #5534d9
+
+}
+
+blockquote {
+	margin:3em;
+}
+
+cite {
+    display:block;
+    text-align: right;
+    border-top: dotted white 1px;	
+    padding: top 2em;
+    font-size: .8em;
+}
