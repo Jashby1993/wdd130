@@ -18,5 +18,38 @@ image{
     box-shadow:0 0 30px gray
 }
 
-p{ padding:10ox
+p{ padding:10px
+}
+
+main{
+    max-width:800px;
+}
+
+aside{
+    margin:4px;
+    border:dotted 1px #9D8DF1;
+    background-color: #9bc1bc;
+    color: #393939;
+    padding: 3px;
+}
+
+aside img{
+    width:200px;
+    height:auto;
+    border:#393939 solid 1px
+}
+
+p{padding:0}
+
+main img{
+    width:150px;
+    height:auto;
+}
+
+footer{
+    border-top:dotted 1px #9d8df1;
+    color: #393939;
+    margin: 2px;
+    background-color:#9bc1bc;
+    text-align: center;
 }

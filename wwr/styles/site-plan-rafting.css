@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Rock+Salt&display=swap');
+:root{
+    --primary-color: #22577a;
+    --secondary-color: #9d8df1;
+    --tertiary-color: #61988e;
+    --accent1-color: #FCBA04;
+    --accent2-color: #36C9C6;
+    --heading-font: "Rock Salt", helvetica;
+    --paragraph-font: Comfortaa, verdana;
+    --nav-background-color: #36c9c6;
+    --nav-link-color: #33577a;
+    --nav-hover-link-color: #FCBA04;
+    --nav-hover-background-color: #9d8df1;
+
+}
+
+body{
+    font-family:var(--paragraph-font);
+    max-width: 960px;
+    padding:20px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--heading-font);
+    color:var(--primary-color);
+}
+
+header{
+    background-color: var(--secondary-color);
+    padding:5px;
+}
+
+p{padding:2px;}
+
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.3em;
+}
+nav a{
+    display:flexbox;
+    color: var(--nav-link-color);
+    padding:2px;
+    }
+
+nav a:link{
+    color:var(--nav-hover-link-color)
+}
+nav a:visited{
+    color:var(--tertiary-color)
+}
+
+nav a:hover{
+    color:var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+
