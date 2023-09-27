@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Rock+Salt&display=swap');
+    /* This color format stinks, the contrast makes you sick*/
 :root{
     --primary-color: #22577a;
     --secondary-color: #9d8df1;
     --tertiary-color: #61988e;
     --accent1-color: #FCBA04;
     --accent2-color: #36C9C6;
+    /* I like Rock Salt, but the spacing between words is awkward. Either find a new heading font that's still
+    rustic, but is less glued together between words. */
     --heading-font: "Rock Salt", helvetica;
     --paragraph-font: Comfortaa, verdana;
     --nav-background-color: #36c9c6;
