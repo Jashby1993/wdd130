@@ -7,8 +7,6 @@
     --tertiary-color: #052f5f;
     --accent1-color: #f0a868;
     --accent2-color: #88cc7b;
-    /* I like Rock Salt, but the spacing between words is awkward. Either find a new heading font that's still
-    rustic, but is less glued together between words. */
     --heading-font: Peralta, helvetica;
     --paragraph-font: Comfortaa, verdana;
     --nav-background-color: #052f5f;
@@ -50,7 +48,7 @@ nav a:link{
     color:var(--nav-hover-link-color)
 }
 nav a:visited{
-    color:var(--tertiary-color)
+    color:var(--secondary-color)
 }
 
 nav a:hover{
