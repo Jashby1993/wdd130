@@ -1,3 +1,8 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 nav{
     background-color: steelblue;
     padding:10px
@@ -52,4 +57,36 @@ footer{
     margin: 2px;
     background-color:#9bc1bc;
     text-align: center;
+}
+/* lass Selectors*/
+
+.box{
+    margin:1em;
+    padding :1em;
+    color:whitesmoke;
+    background-color: #5C5463;
+    border:solid 1px #9DC0BC;
+}
+
+aside{
+    text-align: right;
+    width:300px;
+    position: relative;
+
+}
+:link{
+    color:#88ff80;
+}
+
+:visited{
+    color:#94ffff;
+}
+
+#profile-image{
+    float:right;
+    border:solid salmon 1px;
+}
+.overlap{
+    position:absolute;
+    width:200px;
 }
