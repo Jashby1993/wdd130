@@ -1,3 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Comfortaa&family=Peralta&family=Rancho&family=Rock+Salt&display=swap');
-/* Too many imported google fonts, I know. I didn't like the spacing of rock salt, so I wanted some options 
-to play with. */
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Comfortaa&family=Peralta&display=swap');
+
+
+:root {
+    --primary-color: #7ca29e;
+    --secondary-color: #70ffd2;
+    --tertiary-color: #052f5f;
+    --accent1-color: #f0a868;
+    --accent2-color: #88cc7b;
+    --heading-font: "Peralta", helvetica, sans-serif;
+    --paragraph-font: "Comfortaa", verdana, georgia;
+    --nav-background-color: #f0a868;
+    --nav-link-color: #70ffd2;
+    --nav-hover-link-color: #88cc7b;
+    --nav-hover-background-color: #5c2e10;
+}
+
+nav{
+    font-family: var(--paragraph-font);
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-background-color);
+}
+
+nav > a:hover(
+    color:var(--nav-hover-link-color);
+    background-color:var(--nav-hover-background-color);
+)
+
+p {
+    font-family: var(--paragraph-font);
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+}
+
+/* Define styles for the hero section */
+.hero {
+    position: relative;
+}
+
+/* Make the hero image take up 100% of the container's width */
+.hero > img {
+    width: 100%;
+}
+
+/* Make the article overlay on the above image */
+article {
+    position: absolute;
+    top: 50%; /* Position it in the middle of the container */
+    left: 50%; /* Position it in the middle of the container */
+    transform: translate(-50%, -50%); /* Center it precisely */
+    color:antiquewhite;
+    text-align: center;
+    background-color: rgba(5, 47, 95, 0.7); /* White background with 80% opacity */
+    padding: 20px; /* Add some padding to give it space from the content */
+    border-radius: 10px; /*Found out how to do rounded corners, it sounded nice.*/
+}
+
+article > h1{
+    padding:1em;
+    margin:12px;
+    font-size: 2em;
+}
+
+/* Define styles for images inside articles */
+article > img {
+    float: right; /* Float the image to the right */
+    width: 120px; 
+    height: auto; 
+}
+
+/* Puts the section in the right place */
+section {
+    clear: both;
+}
+
+a {
+text-decoration: none;
+}

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Comfortaa&family=Peralta&family=Rancho&family=Rock+Salt&display=swap');
-/* Gave myself a LOT of font options. Rock Salt looks good, but the spacing is a little strange. */
+/* Font options for headings - Rock Salt looks good but has spacing issues */
 
 :root {
     --primary-color: #7ca29e;
@@ -7,8 +7,8 @@
     --tertiary-color: #052f5f;
     --accent1-color: #f0a868;
     --accent2-color: #88cc7b;
-    --heading-font: peralta, helvetica;
-    --paragraph-font: Comfortaa, verdana;
+    --heading-font: peralta, helvetica, sans-serif;
+    --paragraph-font: Comfortaa, verdana, sans-serif;
     --nav-background-color: #052f5f;
     --nav-link-color: #70ffd2;
     --nav-hover-link-color: #88cc7b;
