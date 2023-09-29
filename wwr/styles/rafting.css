@@ -21,10 +21,6 @@ nav{
     background-color: var(--nav-background-color);
 }
 
-nav > a:hover(
-    color:var(--nav-hover-link-color);
-    background-color:var(--nav-hover-background-color);
-)
 
 p {
     font-family: var(--paragraph-font);
