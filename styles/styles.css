@@ -1,19 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Comfortaa&family=Peralta&family=Rancho&family=Rock+Salt&display=swap');
+
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
+    max-width: 840px;
+    }
+
+a{
+    color:aliceblue;
 }
 nav{
+    display:flex;
     background-color: steelblue;
     padding:10px
+    justify-content: space-around;
+    align-items: center;
 }
 
-nav a{color:white;
-display:block;
-padding:20px
+
+nav a{
+        display:block;
+    padding:20px;
+    text-decoration: none;
+    font-family:"comfortaa",Arial, Helvetica, sans-serif;
+    color:whitesmoke;
+    font-weight: 550;
+    font-size:1.2em;
 }
 
-h1{color:steelblue}
+h1{color:steelblue;
+    border-bottom: steelblue 2px solid;
+    padding-top: .5em;
+    padding-bottom: .3em;
+}
+
+header .grid footer {
+    max-width: 840px;
+    margin:0 auto;
+    }
 
 image{
     width:150px;
@@ -26,9 +51,7 @@ image{
 p{ padding:10px
 }
 
-main{
-    max-width:800px;
-}
+
 
 aside{
     margin:4px;
@@ -50,16 +73,29 @@ main img{
     width:150px;
     height:auto;
     float:right;
+   
 }
 
+ 
+
 footer{
-    border-top:dotted 1px #9d8df1;
+        border-top:dotted 1px #9d8df1;
     color: #393939;
     margin: 2px;
     background-color:#9bc1bc;
-    text-align: center;
+    align-content: center;
+    justify-content: center;
 }
+
+
 /* Class Selectors*/
+.grid {
+    display:grid;
+        justify-content: space-around;
+    max-width: 840px;
+    column-gap: 3em;
+    
+}
 
 .box{
     margin:1em;
@@ -67,21 +103,21 @@ footer{
     color:whitesmoke;
     background-color: #5C5463;
     border:solid 1px #9DC0BC;
+    clear:both;
 }
 
 aside{
     text-align: right;
     width:300px;
     position: relative;
-
-}
-:link{
-    color:#88ff80;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
 }
 
-:visited{
-    color:#94ffff;
+main{
+    grid-column: 2 / 3;
 }
+
 
 aside h2{
     position:absolute;
