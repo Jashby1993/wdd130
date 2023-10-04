@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Comfortaa&family=Peralta&family=Rancho&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Peralta&family=Sarabun&display=swap');
 
 *{
     margin:0;
@@ -10,10 +10,11 @@
 a{
     color:aliceblue;
 }
+
 nav{
     display:flex;
     background-color: steelblue;
-    padding:10px
+    padding:10px;
     justify-content: space-around;
     align-items: center;
 }
@@ -40,7 +41,7 @@ header .grid footer {
     margin:0 auto;
     }
 
-image{
+img{
     width:150px;
     height:auto;
     border: 1px steelblue solid;
@@ -48,7 +49,8 @@ image{
     box-shadow:0 0 30px gray
 }
 
-p{ padding:10px
+p{ padding:10px;
+    font-family: "sarabun", Helvetica, sans-serif;
 }
 
 
@@ -67,7 +69,6 @@ aside img{
     border:#393939 solid 1px
 }
 
-p{padding:0}
 
 main img{
     width:150px;
@@ -93,10 +94,14 @@ main img{
 .box{
     margin:1em;
     padding :1em;
-    color:whitesmoke;
-    background-color: #5C5463;
+    color:#020024;
+    background-color: #c1aad6;
     border:solid 1px #9DC0BC;
     clear:both;
+}
+
+.box-link{
+    color:#020024
 }
 
 aside{
