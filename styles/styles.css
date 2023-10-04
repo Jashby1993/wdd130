@@ -78,14 +78,7 @@ main img{
 
  
 
-footer{
-        border-top:dotted 1px #9d8df1;
-    color: #393939;
-    margin: 2px;
-    background-color:#9bc1bc;
-    align-content: center;
-    justify-content: center;
-}
+
 
 
 /* Class Selectors*/
@@ -94,7 +87,7 @@ footer{
         justify-content: space-around;
     max-width: 840px;
     column-gap: 3em;
-    
+    grid-template-rows: auto 1fr auto;
 }
 
 .box{
@@ -118,6 +111,15 @@ main{
     grid-column: 2 / 3;
 }
 
+footer{
+    border-top: dotted 1px #9d8df1;
+color: #393939;
+margin: 2px;
+background-color:#9bc1bc;
+grid-column: 1 / -1; /* Make the footer span across all columns */
+   text-align: center;  
+ 
+}
 
 aside h2{
     position:absolute;
