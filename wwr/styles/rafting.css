@@ -43,7 +43,7 @@ nav{
     color: var(--nav-hover-link-color);
     background-color: var(--nav-background-color);
     font-weight: 700;
-    font-size: 1.5em;
+    font-size: 1.3em;
     grid-column: 2 / 3;
     display:flex;
     justify-content: center; 
@@ -84,6 +84,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     background-color: rgba(5, 47, 95, 0.7);
     padding: 20px;
+    padding-bottom:10px;
     border-radius: 10px;
     z-index: 2; /* Ensure it's on top of the image */
 }
@@ -121,22 +122,62 @@ a {
 text-decoration: none;
 }
 
-.history {
-    
-        display: grid;
-        grid-template-columns: 2fr 1fr 2fr;
-        grid-template-rows: auto auto;
-        gap: 5px;
-        text-align: center;
+
+.history{
+    background-color: var(--secondary-color);
+}
+.history-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 3fr;
+    justify-content:space-around;
+    gap:20px;
+    margin-left: 20px;
+    margin-right: 20px;
     }
 
-h2 > .history {
-    grid-column: 1 / 3;
-    text-align: center;
-}
+    .history h2{
+        grid-column:span 3;
+        text-align: center;
+        font-size:2em;
+    }
+
+    .history-content1{
+        text-align:center;
+        justify-items: center;
+    }
+
+   .history-content2{
+       text-align: center;
+   } 
+
+    .history-content3{
+        text-align: center;
+        justify-items: center;
+    }
+
+    .adventure {
+        
+            display: grid;
+            grid-template-columns: repeat(5, 1fr); /* 5 columns with equal width */
+                        gap: 10px;
+            max-width: 840px;
+        }
+
+    .adventure > h2{
+        grid-column: span 5;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    footer{
+        color:black;
+        
+    }
 
 .social-icon{
     width: 24px;
     height: 24px;
     padding: 10px;
+    align-items: end;
 }
