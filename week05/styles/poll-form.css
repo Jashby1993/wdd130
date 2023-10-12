@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Quicksand&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #041F1E;
+    --background-color: #C3BAAA;
+    --accent-color: #3958A7;
+    --form-background-color: #D183C9;
+    --heading-font:"autour one",helvetica,sans-serif;
+    --paragraph-font:"quicksand",georgia,arial;
+}
+
+header{
+    width:700px;
+    margin:0 auto;
+}
+
+h1{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    display:flex;
+    text-align: center;
+    padding:1.2rem;
+}
+body{
+    background-color: var(--background-color);
+    font-family: var(--paragraph-font);
+}
+
+
+
+form{
+    width:85%;
+    background-color: var(--form-background-color);
+
+}
+
+
