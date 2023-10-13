@@ -104,5 +104,7 @@ button {
 
   footer{
     color:#d1fec8;
+    display:block;
+    text-align: center;
     
   }
