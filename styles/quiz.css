@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=REM&family=Rationale&family=Saira+Stencil+One&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+:root{
+    --primary-color: #2E4756;
+    --accent-color: #16262E;
+    --form-background-color: #C6C9D2;
+    --heading-font:"saira stencil one",helvetica,sans-serif;
+    --legend-font:"rationale",georgia,arial;
+    --paragraph-font: "rem", georgia,arial;
+}
+
+body{
+    background-color: var(--primary-color);
+    font-family: var(--paragraph-font);
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.italics{
+    font-style:italic;
+    font-size:1.05em;
+}
+
+header {
+    position: relative;
+    margin-bottom: 2.5em;
+  }
+  
+  header img {
+    display: block;
+    width:700px;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  header h1 {
+    font-size: 4em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: #BBE5B3; 
+    text-align: center;
+  }
+
+  form{
+    width:700px;
+    background-color: var(--form-background-color);
+    border-radius:8px;
+  }
+  label{
+    font-size: 1.15em;
+  }
+
+  input[type="type"] {
+    width: 200%; /* This should double the default width */
+  }
+
+  fieldset{
+    width:650px;
+    border:2px solid var(--accent-color);
+    border-radius:10px;
+    padding:1em;
+    margin-top:1em;
+    margin-bottom:1.5em;
+    display:grid;
+    grid-gap:5px;
+  }
+  
+legend{
+    font-family: var(--legend-font);
+    font-size: 2em;
+    font-weight:bold;
+    color:var(--accent-color);
+}
+
+button {
+    display: block; /* Ensures the button takes up full width */
+    margin: 0 auto; /* Center the button horizontally */
+    
+    font-size: 1.5em; /* Enlarge the font size (adjust as needed) */
+    background-color: var(--primary-color); /* Set the background color to a green shade */
+    color: #d1fec8; /* Set the text color to white */
+    border-radius: 10px;
+    padding: 10px 20px; /* Add some padding for better visual appearance */
+    cursor: pointer; /* Show pointer cursor on hover */
+  }
+  
+
+  footer{
+    color:#d1fec8;
+    
+  }
