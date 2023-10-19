@@ -346,3 +346,18 @@ text-decoration: none;
     justify-self: end;
     align-self:center;
 }
+
+.main-content{
+    flex: 1;
+    padding: 20px;
+}
+
+.call-to-action {
+    position: sticky;
+    top: 0;
+    width: 20%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
