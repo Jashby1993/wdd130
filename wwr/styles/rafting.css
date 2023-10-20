@@ -361,3 +361,116 @@ text-decoration: none;
     box-sizing: border-box;
 }
 
+.find{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-content:space-around;
+    /* background-color: var(--tertiary-color); */
+    background-color: var(--primary-color);
+    border-radius:10px;
+    align-items: center;
+    justify-items:center;
+}
+
+.find > h2{
+    grid-column: 1 / 4;
+    /* color:antiquewhite; */
+    /* background-color:var(--tertiary-color); */
+    margin:.5em;
+    border-radius: 10px;
+    color:black;
+}
+
+.find-content{
+    grid-column: 2/ 3;
+    /* background-color: var(--primary-color); */
+    background-color: var(--tertiary-color);
+    margin:1em;
+    border-radius:10px;
+    color:antiquewhite;
+    padding:.5em;
+    /* text-align: center; */
+}
+
+.find > img{
+    margin: 1em;
+    width:75%;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.find-p{
+    text-align:center;
+    font-size:1.1em;
+}
+
+.find ul li {
+    margin-bottom: 1.1em; /* Adjust the value as needed */
+}
+
+
+
+
+.packages-examples {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top:1.2em;
+}
+
+.twin-snake,
+.cascade-falls,
+.crystal-rapids{
+    grid-column: span 3;
+    justify-content:space-around;
+}
+
+.twin-snake .package-content,
+.cascade-falls .package-content,
+.crystal-rapids .package-content {
+    display: flex;
+    background-color:var(--secondary-color);
+     border-radius: 10px;
+     align-items:center;
+}
+
+.description {
+    display: flexbox;
+    flex-grow: 2; 
+    padding:1em;
+    text-align: center;
+    align-items: center;
+}
+.snapshot {
+    display: flexbox;
+    flex-grow: 1; 
+    margin:10px;
+    text-align: center;
+    align-items:center;
+    
+}
+
+/* .trips-page {
+    display: grid;
+    grid-template-columns: 4fr 1fr; 
+}
+
+.main-content {
+    grid-column: 1/2; 
+    padding: 20px; 
+}
+
+.call-to-action {
+    
+    display:flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    grid-column: 2/3; 
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+    
+} */
