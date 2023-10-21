@@ -70,6 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Define styles for the hero section */
 .hero {
     position: relative;
+    margin:1em auto;
 }
 
 /* Make the hero image take up 100% of the container's width */
