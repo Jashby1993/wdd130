@@ -6,7 +6,7 @@
     --secondary-color: #afcac7;
     --tertiary-color: #052b57;
     --accent1-color: #f8ba8794;
-    --accent2-color: #d1e7cc;
+    --accent2-color: #bae0b2;
     --heading-font: "Peralta", helvetica, sans-serif;
     --paragraph-font: "Comfortaa", verdana, georgia;
     --nav-background-color: #afcac7;
@@ -61,6 +61,9 @@ p {
     font-family: var(--paragraph-font);
 }
 
+img{
+    border-radius: 10px;
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
@@ -76,6 +79,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Make the hero image take up 100% of the container's width */
 .hero > img {
     width: 100%;
+    max-height: 20%vh;
+
 }
 
 .hero-content {
@@ -514,4 +519,69 @@ td{
 .testimonials > img{
     grid-column:span 2;
     justify-self:center;
+}
+
+.featured{
+    background-color: var(--secondary-color);
+    border-radius:10px;
+    
+}
+
+.featured-section{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    text-align: center;
+    gap:1em.
+}
+
+.featured-heading{
+    grid-column:span 3;
+    text-align:center;
+    width:100%;
+}
+
+.featured-trip{
+    grid-column: span 3;
+    text-align:center;
+}
+
+.forms-and-articles{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.safety{
+    background-color: var(--tertiary-color);
+    text-align: center;
+    margin: .5em;
+}
+
+img.safety{
+    display:block;
+    margin:0 auto;
+    width: 100%;
+    margin:.5em;
+}
+
+ul.two-column {
+    text-align: left;
+    column-count: 2;
+    column-gap: 2em;
+    position: relative;
+}
+
+li.two-column{
+    margin-bottom: .5em;
+}
+
+ul.two-column::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 51%;
+    transform: translateX(-50%);
+    width: 1px; /* Adjust the width of the line */
+    background-color: whitesmoke; /* Adjust the color of the line */
 }
